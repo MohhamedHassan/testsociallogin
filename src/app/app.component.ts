@@ -24,7 +24,7 @@ export class AppComponent {
     });
   }
   signInWithFB(): void {
-    this.authService.signIn(GoogleAuthProvider.PROVIDER_ID).then(res => {
+    this.authService.signIn(FacebookLoginProvider.PROVIDER_ID).then(res => {
       console.log(res)
     });
   }
